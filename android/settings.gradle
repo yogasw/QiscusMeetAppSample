@@ -1,0 +1,5 @@
+rootProject.name = 'QiscusMeetApp'
+include ':qiscus-meet-module'
+project(':qiscus-meet-module').projectDir = new File(rootProject.projectDir, '../node_modules/qiscus-meet-module/android/app')
+
+include ':app'
