@@ -7,7 +7,7 @@
  */
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native'
-import QiscusMeet from 'qiscus-meet-module'
+import QiscusMeet from 'arioki-qiscus-meet'
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -18,7 +18,8 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   componentDidMount(): void {
-  //  QiscusMeet.showToast("selamat datang")
+  QiscusMeet.showToast("ok")
+  QiscusMeet.launch()
   }
 
   render() {
