@@ -29,6 +29,11 @@ allprojects {
             url "$rootDir/../node_modules/react-native/android"
         }
 
-        maven { url "https://artifactory.qiscus.com/artifactory/qiscus-meet" }
+        maven {
+            url  "https://dl.bintray.com/mryoga/arioki-meet"
+        }
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
     }
 }
