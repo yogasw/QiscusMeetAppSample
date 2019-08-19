@@ -3,6 +3,7 @@ package com.qiscusmeetapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.qiscus.meet.QiscusMeet;
 import com.qiscus.meet.QiscusMeetPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -41,6 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public void onCreate() {
     super.onCreate();
+    QiscusMeet.init(this,"https://meet.qiscus.com");
     SoLoader.init(this, /* native exopackage */ false);
   }
 }

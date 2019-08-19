@@ -18,8 +18,7 @@ const instructions = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   componentDidMount(): void {
-  QiscusMeet.showToast("ok")
-  QiscusMeet.launch()
+  QiscusMeet.launch("453")
   }
 
   render() {
