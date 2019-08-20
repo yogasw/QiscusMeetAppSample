@@ -1,6 +1,4 @@
 rootProject.name = 'QiscusMeetApp'
 include ':arioki-qiscus-meet'
 project(':arioki-qiscus-meet').projectDir = new File(rootProject.projectDir, '../node_modules/arioki-qiscus-meet/android/app')
-include ':arioki-qiscus-meet'
-project(':arioki-qiscus-meet').projectDir = new File(rootProject.projectDir, '../node_modules/arioki-qiscus-meet/android/app')
 include ':app'
