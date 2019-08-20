@@ -7,8 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "arioki-qiscus-meet": "0.0.3",
-    "qiscus-meet": "^1.0.0",
+    "arioki-qiscus-meet": "0.0.7",
     "react": "16.8.3",
     "react-native": "0.59.10"
   },
