@@ -4,7 +4,7 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.qiscus.meet.QiscusMeet;
-import com.qiscus.meet.QiscusMeetPackage;
+import com.qiscus.meetmodule.QiscusMeetPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
